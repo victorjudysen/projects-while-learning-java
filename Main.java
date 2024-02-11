@@ -2,11 +2,12 @@
 
 public class Main 
 {
-    int x = 10;
+    int x;
 
     public static void main(String[] args)
     {
         Main myObj = new Main();
+        myObj.x = 50; //modify attribute values
         System.out.println(myObj.x);
     }
 }
